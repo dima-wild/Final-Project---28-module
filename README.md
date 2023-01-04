@@ -18,11 +18,12 @@
 Папка pages содержит следующие файлы: locators.py - список локаторов на веб страницах, base_page.py - базовая страница, от которой унаследованы все остальные классы, auth_page.py - содержит класс для страницы авторизация, registr_page.py - содержит класс для страницы регистрация
 
 Перед запуском тестов требуется установить необходимые библиотеки командой:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Запуск тестов при помощи команд в консоли:
-python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_page.py
-python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_registr_page.py
+
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_page.py
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_registr_page.py
 
 Сценарии проверок автотестами:
 Каждый тест внутри проекта содержит описание своего назначения.
