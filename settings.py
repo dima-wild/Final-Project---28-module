@@ -1,11 +1,11 @@
 class Settings:
-    chrome_driver = 'C:\chromedriver/chromedriver.exe'
+    chrome_driver = "C:\chromedriver\chromedriver.exe"
     base_url = 'https://b2c.passport.rt.ru'
-    valid_email = 'angarsk93@gmail.com'
-    valid_password = '8Szj2393'
-    valid_email_for_reg = '93angarsk@mail.ru'
-    invalid_email = 'angarsk@gmail.com'
-    invalid_password = '9Xcg4387'
+    valid_email = 'dogmarta1@gmail.com'
+    valid_password = 'martadog'
+    valid_email_for_reg = 'dogmarta1@mail.ru'
+    invalid_email = 'dogmarta@gmail.com'
+    invalid_password = 'Qw12345678Wq543'
     empty_email = ''
     empty_password = ''
     menu_of_type_auth = ['Телефон', 'Почта', 'Логин', 'Лицевой счёт']
